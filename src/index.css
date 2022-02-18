@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.short-hr{
+  border-bottom: 1px solid lightgray;
+}
+
+.NavBar{
+  margin-bottom: 2em;
+}
+
+.NavBar--background-color{
+  background-color: #F55A5A;
+}
+
+.NavBar--color{
+  color: white;
+}
+
+.NavBar--flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavBar--img{
+  margin-right: .5em;
+}
+
+.JournalEntry{
+  max-width: 42em;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.JournalEntry--destination-image{
+  border-radius: 1em;
+  height: 15em;
+  width: 11em;
+  object-fit: cover;
+}
+
+.JournalEntry--link-color{
+  color: #918E9B;
+}
+
+.JournalEntry--huge-h1{
+  font-size: 2em;
+  margin: 0px;
+  margin-bottom: .8em;
+}
+
+.JournalEntry--location-pin{
+  max-width: 1.2em;
+}
+
+.JournalEntry--country{
+  font-weight: normal;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin: 0px;
+  margin-right: 1em;
+}
+
+.JournalEntry--everything-but-destination-image{
+  margin-left: 1.5em;
+  justify-content: center;
+}
+
+.JournalEntry--dates{
+  font-weight: bold;
 }
